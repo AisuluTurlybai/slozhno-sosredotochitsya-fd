@@ -6,16 +6,12 @@
 
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
-  --font-family: "IBM Plex Mono", "monospase";
-  --font-weight-title: 700;
-  --font-weight-text: 400;
-  --font-size-text: 18px;
   --accent-color:  #353430;
   --logo-color: #ffc2e6;
   --subtitle-color: #353430;
   --content-text-color: #353430;
-  --button-hover-color: #353430;
-  --bg-text-color: #ff8dcb;  
+  --button-hover-color: rgb(50 49 45 / 0.4);
+  --bg-text-color: #ff8dcb;
 }
 
 .theme-light .page {
@@ -58,7 +54,7 @@
     --bg-text-color: #ff8dcb;
     --subtitle-color: #353430;
     --content-text-color: #353430;
-    --button-hover-color: #353430;  
+    --button-hover-color: #353430;
   }
 
   .decorated-element {

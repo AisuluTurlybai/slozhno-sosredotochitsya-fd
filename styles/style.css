@@ -54,12 +54,12 @@
 }
 
 .decorated-element::before {
-  content: 'REC';  
+  content: 'REC';
   font-family: var(--font-family), sans-serif;
   font-weight: var(--font-weight-text);
   font-size: var(--font-size-text);
   line-height: 1.39;
-  display: block;  
+  display: block;
   padding-inline-end: 10px;
   text-align: center;
   color: var(--accent-color);
@@ -92,7 +92,7 @@
   margin-block-end: 0;
 }
 
-.header__theme-menu-button {  
+.header__theme-menu-button {
   font-family: var(--font-family);
   font-weight: var(--font-weight-text);
   font-size: var(--font-size-text);
@@ -153,12 +153,12 @@
 }
 
 .main {
+  margin-block-start: 40px;
   padding-inline-start: 10px;
   padding-inline-end: 10px;
 }
 
-.content {
-  margin-block-start: 40px;
+.content {  
   display: grid;
   grid-template-rows: min-content 1fr;
   gap: 20px;
@@ -209,13 +209,13 @@
 
 .content__attention {
   margin-block-start: 50px;
-  margin-block-end: 10px;
+  margin-block-end: 50px;
   display: grid;
   grid-template-rows: min-content 1fr;
   gap: 20px;
 }
 
-.content__picture{
+.content__picture {
   margin-block-start: 50px;
 }
 
@@ -287,12 +287,16 @@
     padding-inline-end: 20px;
   }
 
-  .content {
-    margin-block-start: 40px;
+  .content {    
     grid-template-columns: min-content 1fr;
   }
 
   .section__title {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+  .section__content-title {
     grid-column: 1;
     grid-row: 1 / 7;
   }
