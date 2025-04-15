@@ -7,15 +7,15 @@
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
   --font-family: "IBM Plex Mono", "monospase";
+  --font-weight-title: 700;
+  --font-weight-text: 400;
+  --font-size-text: 18px;
   --accent-color:  #353430;
   --logo-color: #ffc2e6;
   --subtitle-color: #353430;
   --content-text-color: #353430;
   --button-hover-color: #353430;
-  --bg-text-color: #ff8dcb;
-  --font-weight-title: 700;
-  --font-weight-text: 400;
-  --font-size-text: 18px;
+  --bg-text-color: #ff8dcb;  
 }
 
 .theme-light .page {
@@ -35,7 +35,7 @@
     text-shadow: 4px 4px 0 var(--bg-text-color);
   }
 
-  .title-decor { 
+  .title-decor {
     background-color: var(--bg-text-color);
   }
   
@@ -50,15 +50,15 @@
   :root {
     --bg-image: url(../images/cover-image-light.png);
     --font-family: "IBM Plex Mono", "monospase";
-    --accent-color:  #353430;
-    --logo-color: #ffc2e6;
-    --bg-text-color: #ff8dcb;
-    --subtitle-color: #353430;;
-    --content-text-color: #353430;
-    --button-hover-color: #353430;
     --font-weight-title: 700;
     --font-weight-text: 400;
     --font-size-text: 18px;
+    --accent-color:  #353430;
+    --logo-color: #ffc2e6;
+    --bg-text-color: #ff8dcb;
+    --subtitle-color: #353430;
+    --content-text-color: #353430;
+    --button-hover-color: #353430;  
   }
 
   .decorated-element {
@@ -77,7 +77,7 @@
     text-shadow: 4px 4px 0 var(--bg-text-color);
   }
 
-  .title-decor { 
+  .title-decor {
     background-color: var(--bg-text-color);
   }
   

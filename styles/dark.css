@@ -7,17 +7,13 @@
 :root.theme-dark {
   --bg-image: url(../images/cover-image-dark.png);
   --font-family: "IBM Plex Mono", "monospase";
+  --font-weight-title: 700;
+  --font-weight-text: 400;
+  --font-size-text: 18px;
   --accent-color: #ff0070;
   --bg-text-color: #ff0070;
   --logo-color: #db00ff;
   --subtitle-color:#000028;
   --content-text-color: #f1b2ce;
-  --button-hover-color: rgba(255, 0, 112, 0.4);
-  --font-weight-title: 700;
-  --font-weight-text: 400;
-  --font-size-text: 18px;
-}
-
-.theme-dark .page {
-  
+  --button-hover-color: rgba(255, 0, 112, 0.4);  
 }
