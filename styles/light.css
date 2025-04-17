@@ -28,6 +28,7 @@
   :root {
     --bg-image: url(../images/cover-image-light.png);
     --font-family: "IBM Plex Mono", "monospase";
+    --bg-color: #fff1f7;
     --accent-color:  #353430;
     --logo-color: #ffc2e6;
     --bg-text-color: #ff8dcb;
