@@ -107,7 +107,8 @@
   border: none;
   cursor: pointer;
 }
-.header__theme-menu-item{
+
+.header__theme-menu-item {
   padding-block: 1.5px;
 }
 
@@ -183,7 +184,7 @@
   line-height: 130%;
   color: var(--accent-color);
   margin-block-start: 0;
-  margin-block-end: 0; 
+  margin-block-end: 0;
   grid-column: 1 / span 3;
 }
 
