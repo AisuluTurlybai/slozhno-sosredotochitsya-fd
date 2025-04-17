@@ -16,10 +16,10 @@
   --button-hover-color:  #32312D66;
 }
 
-.theme-light .page {    
+.theme-light .page {
   .decorated-element {
     display: none;
-  }  
+  }
 }
 
 
@@ -27,7 +27,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url(../images/cover-image-light.png);
-    --font-family: "IBM Plex Mono", "monospase"; 
+    --font-family: "IBM Plex Mono", "monospase";
     --accent-color:  #353430;
     --logo-color: #ffc2e6;
     --bg-text-color: #ff8dcb;
@@ -36,9 +36,9 @@
     --button-hover-color:  #32312D66;
   } 
 
-  .theme-auto .page {    
+  .theme-auto .page {
     .decorated-element {
       display: none;
-  }  
+  }
 }
 }

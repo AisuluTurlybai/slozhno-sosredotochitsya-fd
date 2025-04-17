@@ -325,7 +325,7 @@
 
   .content {
     grid-template-columns: repeat(3, 1fr);
-    margin-block-end: 80px;   
+    margin-block-end: 80px;
   }
 
   .section__title {
@@ -343,7 +343,7 @@
   }
 
   .content__picture {
-    margin-block-start: 79px;    
+    margin-block-start: 79px;
   }
 
   .picture__title {
@@ -388,9 +388,8 @@
 @media (width >= 1024px) {
 
   .header__text {
-   grid-template-columns: 491px;   
+   grid-template-columns: 491px;
    padding-block-end: 20px;
-   
   }
 
   .header__theme-menu {
@@ -404,7 +403,7 @@
     flex-direction: row;
   }
 
-  .content-paragraph {    
+  .content-paragraph {
     margin-inline-start: 0;
   }
 
