@@ -6,38 +6,20 @@
 
 :root.theme-light {
   --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
   --accent-color:  #353430;
   --logo-color: #ffc2e6;
   --subtitle-color: #353430;
   --content-text-color: #353430;
   --button-hover-color: rgb(50 49 45 / 0.4);
   --bg-text-color: #ff8dcb;
+  --button-hover-color:  #32312D66;
 }
 
-.theme-light .page {
+.theme-light .page {    
   .decorated-element {
     display: none;
-  }
-
-  .decorated-element::before {
-    display: none;
-  }
-
-  .decorated-element::after {
-    display: none;
-  }
-
-  .logo__title {
-    text-shadow: 4px 4px 0 var(--bg-text-color);
-  }
-
-  .title-decor {
-    background-color: var(--bg-text-color);
-  }
-  
-  .footer {
-    text-shadow: 2px 2px 0 var(--bg-text-color);
-  }
+  }  
 }
 
 
@@ -45,39 +27,18 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url(../images/cover-image-light.png);
-    --font-family: "IBM Plex Mono", "monospase";
-    --font-weight-title: 700;
-    --font-weight-text: 400;
-    --font-size-text: 18px;
+    --font-family: "IBM Plex Mono", "monospase"; 
     --accent-color:  #353430;
     --logo-color: #ffc2e6;
     --bg-text-color: #ff8dcb;
     --subtitle-color: #353430;
     --content-text-color: #353430;
-    --button-hover-color: #353430;
-  }
+    --button-hover-color:  #32312D66;
+  } 
 
-  .decorated-element {
-    display: none;
-  }
-
-  .decorated-element::before {
-    display: none;
-  }
-
-  .decorated-element::after {
-    display: none;
-  }
-
-  .logo__title {
-    text-shadow: 4px 4px 0 var(--bg-text-color);
-  }
-
-  .title-decor {
-    background-color: var(--bg-text-color);
-  }
-  
-  .footer {
-    text-shadow: 2px 2px 0 var(--bg-text-color);
-  }
+  .theme-auto .page {    
+    .decorated-element {
+      display: none;
+  }  
+}
 }
